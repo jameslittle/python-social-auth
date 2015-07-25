@@ -39,6 +39,7 @@ Base OAuth and OpenId classes
 
    oauth
    openid
+   saml
 
 Social backends
 ***************
@@ -76,6 +77,7 @@ Social backends
    flickr
    foursquare
    github
+   github_enterprise
    google
    instagram
    jawbone
@@ -89,6 +91,7 @@ Social backends
    loginradius
    mailru
    mapmyfitness
+   meetup
    mendeley
    mineid
    mixcloud
@@ -97,6 +100,7 @@ Social backends
    nationbuilder
    odnoklassnikiru
    openstreetmap
+   orbi
    persona
    pixelpin
    pocket
@@ -131,6 +135,7 @@ Social backends
    vimeo
    vk
    weibo
+   withings
    wunderlist
    xing
    yahoo
