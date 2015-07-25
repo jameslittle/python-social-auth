@@ -36,7 +36,7 @@ def disconnect(backend, association_id=None):
 
 
 def do_login(backend, user, social_user):
-    return login_user(user, remember=current_app.config.get('SOCIAL_AUTH_REMEMBER_ENABLED')
+    return login_user(user, remember=current_app.config.get('SOCIAL_AUTH_REMEMBER_ENABLED') or
                                      request.cookies.get('remember') or
                                      request.args.get('remember') or
                                      request.form.get('remember') or False)
